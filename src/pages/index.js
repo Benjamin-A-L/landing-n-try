@@ -136,11 +136,11 @@ const IndexPage = () => {
 
         </section>
         <div className="line-break" />
-        {/* <section className="audience">
+        <section className="audience">
           <h3>Para quien es este servicio?</h3>
           <p className="adjustable-f-size">Nuestro servicio es ideal para bares y restaurantes en concepción y san pedro de la paz</p>
           <div className="map-imbed" dangerouslySetInnerHTML={{ __html: '<iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d25548.267636835168!2d-73.07018214282225!3d-36.829698205105316!3m2!1i1024!2i768!4f13.1!2m1!1sbares!5e0!3m2!1ses-419!2scl!4v1700429366341!5m2!1ses-419!2scl" width="100%" height="100%" style="border: 0; border-radius: 14px; box-shadow: rgba(2, 1, 0, 0.14) 0px 1px 41px 2px; margin-bottom: 10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>' }} />
-        </section> */}
+        </section>
 
 
         <section className="identity">
@@ -149,7 +149,7 @@ const IndexPage = () => {
         </section>
 
 
-        {/* <section id="calendly">
+        <section id="calendly">
           <h2 className="slide-R-target">Coordina una videollamada sin atados, para discutir si te interesa nuestro servicio</h2>
           <div class="calendly-responsive-wrapper">
             <Helmet>
@@ -159,7 +159,7 @@ const IndexPage = () => {
               <div class="calendly-inline-widget" data-url="https://calendly.com/holdtml-benjamin/reunion-inicial?primary_color=df7b1e" style={{ minWidth: '320px', height: '92dvh', width: '100%', margin: ' 0px 0px 120px 0px', padding: '0px' }}></div>
             </div>
           </div>
-        </section> */}
+        </section>
       </div>
 
     </main>
