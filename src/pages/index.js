@@ -56,6 +56,9 @@ const IndexPage = () => {
     <main>
 
       <div class="mainWrapper">
+        <Helmet>
+          <meta name="description" content="Diseño web para bares y restaurantes" />
+        </Helmet>
         <section className="headline">
           <Logo className="logo-head"></Logo>
           <h1>Diseño Web <span>Gratis</span> para bares y restaurantes</h1>

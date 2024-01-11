@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    description: 'Diseño web para bares y restaurantes',
+    description: `Diseño web para bares y restaurantes`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
@@ -26,7 +26,6 @@ module.exports = {
       options: {
         name: `HoldTML`,
         icon: `src/images/HoldTML-ICON.png`,
-        description: 'Diseño web para bares y restaurantes',
       },
     },
     {
