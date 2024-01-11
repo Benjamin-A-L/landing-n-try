@@ -16,7 +16,7 @@ export const LogoStyled = styled.div`
     justify-self: center;
 `
 export const Logo = () => {
-  return <LogoStyled><b>&lt;H</b><span style={{ color: 'rgb(223, 123, 30)' }}>old</span><b>TML/&gt;</b></LogoStyled>
+  return <LogoStyled><b>&lt;H</b><span style={{ color: 'rgb(241, 151, 32)' }}>old</span><b>TML/&gt;</b></LogoStyled>
 }
  
 const IndexPage = () => {
@@ -64,17 +64,17 @@ const IndexPage = () => {
             <div className="catch_CTA">
               <h2>Sin Costo? =&gt;</h2>
               <div className="scarecity">
-                <p className="adjustable-f-size">Tenemos cupos limitados para esta oferta, y solo trabajamos con 1 cliente a la vez, asi que si te interesa, contactanos pronto para reservar tu cupo</p>
+                <p className="adjustable-f-size">Tenemos cupos limitados para esta oferta, y solo trabajamos con 1 cliente a la vez, así que si te interesa, contactanos pronto para reservar tu cupo</p>
                 <button onClick={() => scrollTo("#calendly")} className="redeem_btn">me interesa</button>
               </div>
             </div>
 
             <div className="catch_list">
-              <h3>Si, no hay costo para esta oferta mientras estes dispuesto ha</h3>
+              <h3>Si, no hay costo para esta oferta mientras estés dispuesto a</h3>
               <ul className='catch_list_wrapper'>
-                <li className="catch_list_item adjustable-f-size">Darnos un review y testimonio honestos de tu experiencia</li>
+                <li className="catch_list_item adjustable-f-size">Darnos un review y testimonio honesto de tu experiencia</li>
                 <li className="catch_list_item adjustable-f-size">Contestar un formulario, para ayudarnos a mejorar nuestro servicio</li>
-                <li className="catch_list_item adjustable-f-size">Referirnos a alguien que puede beneficiar de nuestros servicios, en caso de lo veas pertinente</li>
+                <li className="catch_list_item adjustable-f-size">Referirnos a alguien que puede beneficiar de nuestros servicios, en caso de que lo veas pertinente</li>
               </ul>
             </div>
           </div>
@@ -85,9 +85,8 @@ const IndexPage = () => {
         <section>
           <div className='solution de-que-es'>
             <h1>De que se trata?</h1>
-            <p className="adjustable-f-size">El tema aqui es un plan para aumentar la cantidad y mejorar la conversión de visitas por medios web. <br/>
-            Que significa esto? simplemente que mas gente se interese en ir a comer/tomar despues de ver algo por internet de tu local. Esto lo lograremos a traves de multiples medios que estan listados abajo por si te interesa averiguar mas de ellos. <br/>
-            Ademas de esto, tambien tenemos un enfoque en aumentar la frecuencia de tus clientes, para que puedas tener una fuente de ingresos mas recurrente.
+            <p className="adjustable-f-size">El tema aquí es un plan para aumentar la cantidad y mejorar la conversión de visitas por medios web. <br/>
+            Que significa esto?, simplemente que más gente se interese en ir a comer/tomar después de ver algo por internet de tu local. Esto lo lograremos a través de múltiples medios que están listados abajo por si te interesa averiguar más de ellos. Además de esto, también tenemos un enfoque en aumentar la frecuencia de tus clientes, para que puedas tener una fuente de ingresos más recurrente.
             </p>
           </div>
         </section>
@@ -102,11 +101,11 @@ const IndexPage = () => {
 
             <div className="paragraph-wrapper solution-block">
               <StaticImage src="../images/ssg-host-flow.jpg" className="code-img slide-L-target solution-img" alt="code editor, with gatsby code"></StaticImage>
-              <p className="slide-R-target adjustable-f-size">Sitios web extremadamente rapidos, gracias a un modelo de generación estatica</p>
+              <p className="slide-R-target adjustable-f-size">Sitios web extremadamente rápidos, gracias a un modelo de generación estática</p>
             </div>
 
             <div className='insights-wrapper solution-block'>
-              <p className="slide-L-target adjustable-f-size">Optimización, accesibilidad en multiples dipositivos y velocidad que verificamos con <a target="_blank" href='https://pagespeed.web.dev' className="text-atag">google page speed insights</a></p>
+              <p className="slide-L-target adjustable-f-size">Optimización, accesibilidad en múltiples dispositivos y velocidad que verificamos con <a target="_blank" href='https://pagespeed.web.dev' className="text-atag">google page speed insights</a></p>
               <a href="https://pagespeed.web.dev" target="_blank">
                 <StaticImage src="../images/google-pagespeed-insights-logo.png" className="insights-logo slide-R-target solution-img" alt="page speed insights example"></StaticImage>
               </a>
@@ -116,11 +115,11 @@ const IndexPage = () => {
           <div className="mail-prismic-wrapper fade-in">
             <div className="solution_prismic solution-block">
             <a href="https://prismic.io" target="_blank"><StaticImage src="../images/prismic-logo.png" className="prismic-img slide-L-target solution-img" alt="logo prismic"></StaticImage></a>
-              <p className="slide-R-target adjustable-f-size">Podras editar el contenido del sitio a gusto, sin necesidad de escribir codigo gracias a que integramos de <a href="https://prismic.io" target="_blank" className="text-atag">prismic.io</a></p>
+              <p className="slide-R-target adjustable-f-size">Podrás editar el contenido del sitio a gusto, sin necesidad de escribir código gracias a que integramos de <a href="https://prismic.io" target="_blank" className="text-atag">prismic.io</a></p>
             </div>
 
             <div className="solution_email solution-block">
-              <p className="slide-L-target adjustable-f-size">Mejoraremos tu retención de clientes, informadolos de tus offertas y descuentos con correos automatizados</p>
+              <p className="slide-L-target adjustable-f-size">Mejoraremos tu retención de clientes, informándolos de tus ofertas y descuentos con correos automatizados</p>
               <a href="https://mailerlite.com" target="_blank">
                 <StaticImage src="../images/mailerlite-logo.jpg" className="email-img slide-R-target solution-img" alt="logo email"></StaticImage>
               </a>
@@ -129,7 +128,7 @@ const IndexPage = () => {
 
           <div className="solution_GMB solution-block">
             <StaticImage src="../images/google-my-business-logo.png" className='gmb-img slide-L-target solution-img' ></StaticImage>
-            <p className="slide-R-target adjustable-f-size">Incrementamos busquedas locales con optimización de GMB (Google my business)</p>
+            <p className="slide-R-target adjustable-f-size">Incrementamos búsquedas locales con optimización de GMB (Google my business)</p>
           </div>
 
         </section>
@@ -142,8 +141,8 @@ const IndexPage = () => {
 
 
         <section className="identity">
-          <StaticImage src="../images/carnet-pic.jpg" className="benjamin-img slide-L-target" ></StaticImage>
-          <p className="adjustable-f-size slide-R-target">Yo soy Benjamin Astudillo, un joven desarrollador web y empresario que lleva mas de 2 años estudiando y practicando para mejorar mis servicios</p>
+          <StaticImage src="../images/imagen-interior.jpg" className="benjamin-img slide-L-target" ></StaticImage>
+          <p className="adjustable-f-size slide-R-target">Yo soy Benjamín Astudillo, un joven desarrollador web y empresario que lleva más de 2 años estudiando y practicando para mejorar mis servicios</p>
         </section>
 
 
@@ -166,4 +165,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>HoldTML</title>
