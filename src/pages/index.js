@@ -56,10 +56,6 @@ const IndexPage = () => {
     <main>
 
       <div class="mainWrapper">
-        <Helmet>
-          {/* <meta name="description" content="Diseño web para bares y restaurantes" /> */}
-          {/* <meta property="og:image" content="https://holdtml.cl/landing-v1/src/images/Untitled.webp" /> */}
-        </Helmet>
         <section className="headline">
           <Logo className="logo-head"></Logo>
           {/* <StaticImage src='../images/HoldTML-logo.jpg' /> */}
