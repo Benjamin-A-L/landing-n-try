@@ -58,7 +58,7 @@ const IndexPage = () => {
       <div class="mainWrapper">
         <Helmet>
           <meta name="description" content="Diseño web para bares y restaurantes" />
-          <meta property="og:image" content="https://holdtml.cl/images/Untitled.jpg" />
+          <meta property="og:image" content="https://holdtml.cl/images/Untitled.webp" />
         </Helmet>
         <section className="headline">
           {/* <Logo className="logo-head"></Logo> */}
