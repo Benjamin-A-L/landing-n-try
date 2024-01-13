@@ -58,7 +58,7 @@ const IndexPage = () => {
       <div class="mainWrapper">
         <Helmet>
           <meta name="description" content="Diseño web para bares y restaurantes" />
-          <meta name="og:image" content="C:\Users\Benchmon\Desktop\productividad\HoldTML\landing page-v1 netlify deploy copy\landing-v1-netlify\static\HoldTML-logo.jpg" />
+          <meta name="og:image" content="../../static\HoldTML-logo.jpg" />
         </Helmet>
         <section className="headline">
           <Logo className="logo-head"></Logo>
