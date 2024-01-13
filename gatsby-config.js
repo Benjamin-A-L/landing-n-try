@@ -3,9 +3,9 @@
  */
 module.exports = {
   siteMetadata: {
-    description: `Diseño web para bares y restaurantes`,
+    // description: `Diseño web para bares y restaurantes`,
     siteUrl: `https://www.yourdomain.tld`,
-    'og:image': `C:\Users\Benchmon\Desktop\productividad\HoldTML\landing page-v1 netlify deploy copy\landing-v1-netlify\static\HoldTML-logo.jpg`,
+    // 'og:image': `C:\Users\Benchmon\Desktop\productividad\HoldTML\landing page-v1 netlify deploy copy\landing-v1-netlify\static\HoldTML-logo.jpg`,
   },
   plugins: [
     'gatsby-plugin-sharp',

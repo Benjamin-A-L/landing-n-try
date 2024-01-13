@@ -57,8 +57,8 @@ const IndexPage = () => {
 
       <div class="mainWrapper">
         <Helmet>
-          <meta name="description" content="Diseño web para bares y restaurantes" />
-          <meta property="og:image" content="C:\Users\Benchmon\Desktop\productividad\HoldTML\landing page-v1 netlify deploy copy\landing-v1-netlify\static\HoldTML-logo.jpg" />
+          {/* <meta name="description" content="Diseño web para bares y restaurantes" /> */}
+          {/* <meta property="og:image" content="C:\Users\Benchmon\Desktop\productividad\HoldTML\landing page-v1 netlify deploy copy\landing-v1-netlify\static\HoldTML-logo.jpg" /> */}
         </Helmet>
         <section className="headline">
           <Logo className="logo-head"></Logo>
@@ -169,4 +169,12 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>HoldTML</title>
+export const Head = () => {
+  return(
+    <head>
+      <title>HoldTML</title>
+      <meta name='description' content='Diseño web para bares y restaurantes' />
+      <meta name='og:image' content='../static/HoldTML.jpg' />
+    </head>
+  )
+}
