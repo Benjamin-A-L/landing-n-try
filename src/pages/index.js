@@ -176,7 +176,7 @@ export const Head = () => {
     <>
       <title>HoldTML</title>
       <meta name='description' content='Diseño web para bares y restaurantes' />
-      <meta property='og:image' content='../src/images/Untitled.jpg' />
+      <meta property='og:image' content='../images/Untitled.jpg' />
     </>
   )
 }
