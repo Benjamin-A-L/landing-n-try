@@ -57,12 +57,12 @@ const IndexPage = () => {
 
       <div class="mainWrapper">
         <Helmet>
-          <meta name="description" content="Diseño web para bares y restaurantes" />
-          <meta property="og:image" content="https://holdtml.cl/images/Untitled.webp" />
+          {/* <meta name="description" content="Diseño web para bares y restaurantes" /> */}
+          {/* <meta property="og:image" content="https://holdtml.cl/landing-v1/src/images/Untitled.webp" /> */}
         </Helmet>
         <section className="headline">
-          {/* <Logo className="logo-head"></Logo> */}
-          <StaticImage src='../images/HoldTML-logo.jpg' />
+          <Logo className="logo-head"></Logo>
+          {/* <StaticImage src='../images/HoldTML-logo.jpg' /> */}
           <h1>Diseño Web <span>Gratis</span> para bares y restaurantes</h1>
           <div className="whats_the_catch">
 
@@ -170,13 +170,13 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>HoldTML</title>
-// export const Head = () => {
-//   return(
-//     <head>
-//       <title>HoldTML</title>
-//       <meta name='description' content='Diseño web para bares y restaurantes' />
-//       <meta name='og:image' content='../static/HoldTML.jpg' />
-//     </head>
-//   )
-// }
+// export const Head = () => <title>HoldTML</title>
+export const Head = () => {
+  return(
+    <>
+      <title>HoldTML</title>
+      <meta name='description' content='Diseño web para bares y restaurantes' />
+      <meta property='og:image' content='../src/images/Untitled.jpg' />
+    </>
+  )
+}

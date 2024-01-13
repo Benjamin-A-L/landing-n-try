@@ -5,9 +5,9 @@ module.exports = {
   siteMetadata: {
     description: `Diseño web para bares y restaurantes`,
     siteUrl: `https://www.yourdomain.tld`,
-    og:{
-      image: `src/images/Untitled.jpg`,
-    },
+    // og:{
+    //   image: `src/images/Untitled.jpg`,
+    // },
   },
   plugins: [
     'gatsby-plugin-sharp',
