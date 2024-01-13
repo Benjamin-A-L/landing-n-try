@@ -176,7 +176,7 @@ export const Head = () => {
     <>
       <title>HoldTML</title>
       <meta name='description' content='Diseño web para bares y restaurantes' />
-      <meta property='og:image' content='../images/ssg-host-flow.jpg' />
+      <meta property='og:image' content='https://holdtml.cl/static/1f75e91e7d30840aa45721329e4587b2/23602/ssg-host-flow.webp' />
     </>
   )
 }
