@@ -6,6 +6,7 @@ import { StaticImage, GatsbyImage } from "gatsby-plugin-image"
 import scrollTo from 'gatsby-plugin-smoothscroll';
 import { Helmet } from "react-helmet"
 import { useEffect } from "react"
+import myImage from '../images/holdtml-banner.jpg'
 
 
 export const LogoStyled = styled.div`
@@ -171,7 +172,7 @@ export const Head = () => {
     <>
       <title>HoldTML</title>
       <meta name='description' content='Diseño web para bares y restaurantes' />
-      <meta property='og:image' content='../images/holdtml-banner.jpg' />
+      <meta property='og:image' content={myImage} />
     </>
   )
 }
