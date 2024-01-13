@@ -58,7 +58,7 @@ const IndexPage = () => {
       <div class="mainWrapper">
         <Helmet>
           <meta name="description" content="Diseño web para bares y restaurantes" />
-          <meta property="og:image" content="https://scontent.fccp2-1.fna.fbcdn.net/v/t39.30808-6/418941992_122108527784172974_8377276879161321992_n.jpg?stp=dst-jpg_p180x540&_nc_cat=104&ccb=1-7&_nc_sid=783fdb&_nc_ohc=mOnrhl6eeHsAX9CQ9n5&_nc_ht=scontent.fccp2-1.fna&oh=00_AfCDbzE-YgxCvvqLMOUpbLqic-hfa9_PXldLGZFvntRduA&oe=65A768CE" />
+          <meta property="og:image" content="https://holdtml.cl/images/Untitled.jpg" />
         </Helmet>
         <section className="headline">
           <Logo className="logo-head"></Logo>
