@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 const pageStyles = {
   color: "#232129",
@@ -25,9 +26,10 @@ const codeStyles = {
 
 const NotFoundPage = () => {
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
+    <main>
+      <StaticImage src='../images/HoldTML-logo.jpg'></StaticImage>
+      <h1>Page not found</h1>
+      <p >
         Perdon, no pudimos encontrar este sitio.
         <br />
         {process.env.NODE_ENV === "development" ? (
