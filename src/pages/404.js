@@ -27,7 +27,7 @@ const codeStyles = {
 const NotFoundPage = () => {
   return (
     <main>
-      <StaticImage src='../images/HoldTML-logo.jpg'></StaticImage>
+      <StaticImage src='../../static/HoldTML-logo.jpg'></StaticImage>
       <h1>Page not found</h1>
       <p >
         Perdon, no pudimos encontrar este sitio.
