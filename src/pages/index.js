@@ -100,7 +100,7 @@ const IndexPage = () => {
           <div className="solution_webdev">
             <div className="title-wrapper">
               <h2>Sitios Web programados en <a target='_blank' href='https://gatsbyjs.com' className="text-atag">Gatsby</a></h2>
-              <a target='_blank' href='https://gatsbyjs.com'><StaticImage src="../images/icon.png" className="gatsby-logo" alt="gatsby logo"></StaticImage></a>
+              <a target='_blank' href='https://gatsbyjs.com'><StaticImage src="../images/icon-gatsby.png" className="gatsby-logo" alt="gatsby logo"></StaticImage></a>
             </div>
 
             <div className="paragraph-wrapper solution-block">
