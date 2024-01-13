@@ -58,7 +58,7 @@ const IndexPage = () => {
       <div class="mainWrapper">
         <Helmet>
           <meta name="description" content="Diseño web para bares y restaurantes" />
-          <meta property="og:image" content="../images/HoldTML-logo.jpg" />
+          <meta property="og:image" content="https://d3v0px0pttie1i.cloudfront.net/uploads/branding/logo/ad2eeed9-5a77-48ce-911f-616409120200/a29fad1f.jpg" />
         </Helmet>
         <section className="headline">
           <Logo className="logo-head"></Logo>
